@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<link rel="stylesheet" href="style.css" type="text/css" >
+<title>Воронеж-город КУРАЖА</title>
+</head>
+<body BGCOLOR="#C1CDC1">
+<ul class="css-menu-3">
+<li><a href="index.html" class="selected">Главная</a></li>
+<li><a href="university.html">Вузы</a></li>
+<li><a href="Достопримечательности.html">Достопримечательности</a></li>
+<li><a href="party.html"> пати</a></li>
+<li><a href="#">О Исполнителе</a></li>
+</ul>
+<script type="text/javascript">
+i=0;
+dt=new Array("0000A0", "A00000", "00A000", "00A0A0", "A000A0", "A0A000");
+function cl() // эта функция будет менять цвет текста
+{document.getElementById("web").style.color=dt[i++];
+if (i>dt.length) i=0;
+setTimeout("cl()",1000);}
+</script>
+</form>
+</body>
+</html>
